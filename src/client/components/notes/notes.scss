@@ -1,0 +1,24 @@
+.notes-container {
+  margin: 24px;
+  border: 1px solid gray;
+  background: white;
+  border-radius: 6px;
+  padding: 0 24px 16px;
+}
+
+.notes-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  .notes-style {
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 95%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .edit-notes {
+    width: 95%;
+  }
+}

@@ -1,0 +1,22 @@
+.loginContainer {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.fieldsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  margin: 15px auto;
+}
+
+.cardStyle {
+  min-width: 300px;
+}
+
+.errorStyle {
+  color: red;
+}
